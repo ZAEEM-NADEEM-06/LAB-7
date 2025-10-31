@@ -39,7 +39,7 @@ async function zaeemShowPosts()
       const zaeemUser = document.createElement("td");
       zaeemUser.textContent = zaeemPost.userId;
 
-      zaeemRow.append(zaeemTitle, zaeemBody, zaeemUser);
+      zaeemRow.append(zaeemUser,zaeemTitle, zaeemBody);
       zaeemTable.appendChild(zaeemRow);
     }
 
